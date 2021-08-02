@@ -50,14 +50,14 @@ class Directory extends React.Component{
     render() {
         return(
             <Grid container spacing={3} direction="row" justifyContent="center" alignItems="center">
-                {this.state.sections.map(({id,title,imageUrl,size})=> {
+                {this.state.sections.map(({id,...otherSectionProps})=> {
                     if(id <= 3)
                         return <Grid item lg={4}  md={4} sm={12} xs={12} key={id}>
-                                <MenuItem title={title} id={id} imageUrl={imageUrl} />
+                                  <MenuItem key={id} {...otherSectionProps}/>
                                </Grid>
                     else
                         return <Grid item lg={6} md={6} sm={12} xs={12} key={id}>
-                                 <MenuItem title={title} id={id} imageUrl={imageUrl} size={size} />
+                                 <MenuItem key={id} {...otherSectionProps} />
                                </Grid>
                 })}
             </Grid>

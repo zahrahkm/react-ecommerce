@@ -1,0 +1,44 @@
+.media{
+    padding-top: 56.25%;
+    height: 280px;
+}
+.media:hover{
+    opacity: .8
+}
+
+.collection-footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 5px 0!important;
+}
+
+.collection-item{
+    box-shadow: none!important;
+}
+
+.card-button{
+    background-color: #fff;
+    padding: 5% 25%!important;
+    margin-left: auto!important;
+    margin-right: auto!important;
+    display: flex!important;
+    border-radius: 0;
+    border: none;
+    opacity: 0.8;
+}
+.card-button:hover {
+    background-color: #000000;
+    opacity: 0.9;
+    color: white;
+}
+.button-parent{
+    display: flex;
+    align-items: flex-end;
+    width: 100%;
+    height: 80%;
+    
+}
+.media.button-parent:hover{
+    display: block;
+}
