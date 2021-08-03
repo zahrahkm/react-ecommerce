@@ -1,0 +1,18 @@
+.logo{
+    width: 35%;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.options{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.option{
+    padding: 10px 15px;
+}
