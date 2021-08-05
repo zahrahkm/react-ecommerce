@@ -1,5 +1,6 @@
 import React from "react";
 import SignIN from "../../components/sign-in/sign-in-component";
+import SignUp from "../../components/sign-up/sign-up-component";
 import Grid from "@material-ui/core/Grid";
 
 
@@ -11,7 +12,7 @@ const SignInAndSignUpPage=()=>(
                 <SignIN />
             </Grid>
             <Grid item lg={4}  md={6} sm={12} xs={12}>
-                <SignIN />
+                <SignUp />
             </Grid>
         </Grid>
     </div>

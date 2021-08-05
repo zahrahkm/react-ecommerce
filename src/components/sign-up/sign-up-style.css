@@ -1,0 +1,20 @@
+.sign-up{
+    display: flex;
+    flex-direction: column;
+    width: 380px;
+}
+
+.sign-up-form{
+    display: flex;
+    flex-direction: column;
+}
+.sign-up-form-item{
+    margin: 25px 0!important;
+
+}
+.sign-up-form-button{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 50px;
+}

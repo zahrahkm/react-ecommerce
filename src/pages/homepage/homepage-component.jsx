@@ -4,7 +4,6 @@ import Directory from "../../components/directory.component";
 
 
 const HomePage=(props)=>{
-    console.log(props)
     return(
         <Container maxWidth='xl' >
             <Directory />
