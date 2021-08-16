@@ -14,7 +14,6 @@ const CollectionPreview=({id,title,items})=>(
         </Grid>
     </div>
 
-
 )
 
 

@@ -3,6 +3,7 @@ import {Link} from "react-router-dom";
 import './header.style.css'
 import {Container} from "@material-ui/core";
 import {auth} from '../../firebase/firebase.utils'
+import {connect} from "react-redux";
 
 const Header=({currentUser})=>(
     <Container maxWidth='xl' >
@@ -24,5 +25,7 @@ const Header=({currentUser})=>(
     </div>
     </Container>
 )
-
-export default Header;
+const mapStateToProps=(state)=>({
+    currentUser: state.user.currentUser
+})
+export default connect(mapStateToProps)(Header);

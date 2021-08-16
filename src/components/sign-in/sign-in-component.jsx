@@ -44,7 +44,7 @@ export default class SignIN extends React.Component{
                     <TextField name='password' value={this.state.password} onChange={this.handeleChange} label="Password" type="password" className='sign-in-form-item' required/>
                     <div className="sign-in-form-button">
                         <CustomButton type="submit" >sign in</CustomButton>
-                        <CustomButton onClick={signInWithGoogle} isGoogleSignIn>sign in with google</CustomButton>
+                        <CustomButton onClick={signInWithGoogle} type="button" isGoogleSignIn>sign in with google</CustomButton>
                     </div>
                 </form>
             </div>
